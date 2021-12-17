@@ -35,6 +35,3 @@ jobs:
         with:
           name: dsm918
           path: ./images
-
-        env:
-                NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
