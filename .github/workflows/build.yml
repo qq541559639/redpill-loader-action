@@ -35,4 +35,3 @@ jobs:
         with:
           name: dsm918
           path: ./images
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
