@@ -27,6 +27,13 @@ cd ..
 # build redpill-load
 cd redpill-load
 cp ${root}/user_config.DS918+.json ./user_config.json
+
+# ACPI驱动
+# ./ext-manager.sh add https://raw.githubusercontent.com/jumkey/redpill-load/develop/redpill-acpid/rpext-index.json
+./ext-manager.sh add https://github.com/jumkey/redpill-load/raw/develop/redpill-acpid/rpext-index.json
+# RTL8168网卡驱动
+./ext-manager.sh add https://raw.githubusercontent.com/pocopico/rp-ext/master/r8168/rpext-index.json
+
 sudo ./build-loader.sh 'DS918+' '7.0.1-42218'
 mv images/redpill-DS918+_7.0.1-4221*.img ${root}/output/
 cd ${root}
