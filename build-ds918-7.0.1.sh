@@ -32,7 +32,12 @@ cp ${root}/user_config.DS918+.json ./user_config.json
 # ./ext-manager.sh add https://raw.githubusercontent.com/jumkey/redpill-load/develop/redpill-acpid/rpext-index.json
 ./ext-manager.sh add https://github.com/jumkey/redpill-load/raw/develop/redpill-acpid/rpext-index.json
 # RTL8168网卡驱动
-./ext-manager.sh add https://raw.githubusercontent.com/pocopico/rp-ext/master/r8168/rpext-index.json
+# ./ext-manager.sh add https://raw.githubusercontent.com/pocopico/rp-ext/master/r8168/rpext-index.json
+
+./ext-manager.sh add https://raw.githubusercontent.com/pocopico/rp-ext/master/e1000/rpext-index.json
+./ext-manager.sh add https://raw.githubusercontent.com/pocopico/rp-ext/master/e1000e/rpext-index.json
+./ext-manager.sh add https://raw.githubusercontent.com/pocopico/rp-ext/master/igb/rpext-index.json
+./ext-manager.sh add https://raw.githubusercontent.com/pocopico/rp-ext/master/igbvf/rpext-index.json
 
 sudo ./build-loader.sh 'DS918+' '7.0.1-42218'
 mv images/redpill-DS918+_7.0.1-4221*.img ${root}/output/
