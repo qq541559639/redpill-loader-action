@@ -40,18 +40,18 @@ cp ${root}/user_config.DS918+.json ./user_config.json
 # ./ext-manager.sh add https://raw.githubusercontent.com/pocopico/rp-ext/master/igbvf/rpext-index.json
 
 # ------以下测试驱动-------
-./ext-manager.sh add https://raw.githubusercontent.com/pocopico/rp-ext/master/atl1c/rpext-index.json
-# ./ext-manager.sh add https://raw.githubusercontent.com/pocopico/rp-ext/master/atl1e/rpext-index.json
-./ext-manager.sh add https://raw.githubusercontent.com/pocopico/rp-ext/master/atlantic/rpext-index.json
-# ./ext-manager.sh add https://raw.githubusercontent.com/pocopico/rp-ext/master/bnx2/rpext-index.json
-./ext-manager.sh add https://raw.githubusercontent.com/pocopico/rp-ext/master/bnx2x/rpext-index.json
-# ./ext-manager.sh add https://raw.githubusercontent.com/pocopico/rp-ext/master/iavf/rpext-index.json
-./ext-manager.sh add https://raw.githubusercontent.com/pocopico/rp-ext/master/sfc/rpext-index.json
-# ./ext-manager.sh add https://raw.githubusercontent.com/pocopico/rp-ext/master/skge/rpext-index.json
-./ext-manager.sh add https://raw.githubusercontent.com/pocopico/rp-ext/master/sky2/rpext-index.json
-# ./ext-manager.sh add https://raw.githubusercontent.com/pocopico/rp-ext/master/tg3/rpext-index.json
-./ext-manager.sh add https://raw.githubusercontent.com/pocopico/rp-ext/master/via-velocity/rpext-index.json
-# ./ext-manager.sh add https://raw.githubusercontent.com/pocopico/rp-ext/master/wch/rpext-index.json
+# ./ext-manager.sh add https://raw.githubusercontent.com/pocopico/rp-ext/master/atl1c/rpext-index.json
+./ext-manager.sh add https://raw.githubusercontent.com/pocopico/rp-ext/master/atl1e/rpext-index.json
+# ./ext-manager.sh add https://raw.githubusercontent.com/pocopico/rp-ext/master/atlantic/rpext-index.json
+./ext-manager.sh add https://raw.githubusercontent.com/pocopico/rp-ext/master/bnx2/rpext-index.json
+# ./ext-manager.sh add https://raw.githubusercontent.com/pocopico/rp-ext/master/bnx2x/rpext-index.json
+./ext-manager.sh add https://raw.githubusercontent.com/pocopico/rp-ext/master/iavf/rpext-index.json
+# ./ext-manager.sh add https://raw.githubusercontent.com/pocopico/rp-ext/master/sfc/rpext-index.json
+./ext-manager.sh add https://raw.githubusercontent.com/pocopico/rp-ext/master/skge/rpext-index.json
+# ./ext-manager.sh add https://raw.githubusercontent.com/pocopico/rp-ext/master/sky2/rpext-index.json
+./ext-manager.sh add https://raw.githubusercontent.com/pocopico/rp-ext/master/tg3/rpext-index.json
+# ./ext-manager.sh add https://raw.githubusercontent.com/pocopico/rp-ext/master/via-velocity/rpext-index.json
+./ext-manager.sh add https://raw.githubusercontent.com/pocopico/rp-ext/master/wch/rpext-index.json
 # ------以上测试驱动-------
 
 sudo ./build-loader.sh 'DS918+' '7.0.1-42218'
